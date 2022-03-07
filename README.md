@@ -42,4 +42,5 @@ This project is created to analyze credit card risk by employing different techn
 - Among sampling models the Combination (Over and Under) Sampling showed better  balanced accuracy score - about 68% (against random oversampling 65%, SMOTE oversampling 66% and undersampling 64.4%).
 - However the Easy ensemble classifier model got higher balanced accuracy score (93%) than balanced random forest classifier (79%). Yet both these classification models performed better accuracy score than sampling models.
 - F1 score is highest for Easy Ensemble AdaBoost Classifier - 97%
-- Since Easy Ensemble AdaBoost Classifier showed the best  balanced accuracy score and the highest f1 score, I would recommend using it for the credit risk analysis.
+- All the models show much more false-positive over true-positive results which means a lot of customers' credit cards will be blocked for no reason.
+- None of the models is suitable for commercial use and further consideration/processing should be done in case the model was partially used in the decision-making process.
